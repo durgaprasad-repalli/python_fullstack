@@ -48,3 +48,31 @@ section{
     border-radius: 20px;
 
 }
+h2{
+    margin-bottom: 20px;
+    color: red;
+}
+p{
+    margin-bottom: 15px;
+
+}
+.banner{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+article{
+    margin-top: 2opx;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+article:hover{
+    background-color: #f0f0f0;
+}
