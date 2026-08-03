@@ -31,3 +31,11 @@ registerForm.addEventListener("submit",function (event){
     console.log("Name:",name);
     console.log("Email",email);
     console.log("passord",password);});
+    function checkOddEven(num){
+        if (num % 2 === 0) {
+            return "Even";
+        }else{
+            return "Odd";
+        }
+    }
+    console.log("check if 7 is odd or even:",checkOddEven(7));
